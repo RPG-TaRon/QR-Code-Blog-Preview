@@ -3,37 +3,47 @@
 .attribution a { color: hsl(228, 45%, 44%); }
 </style> */
 .main {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(167, 188, 216);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(212, 45%, 89%);
 }
 
 .qr-code-container {
-    background-color: white;
-    text-align: center;
-    padding: 16px;
-    border-radius: 15px;
-    width: 250px;
+  background-color: white;
+  text-align: center;
+  padding: 16px;
+  border-radius: 15px;
+  width: 250px;
 }
 
 .qr-code {
-    width: 100%;
-    display: block;
-    border-radius: 15px;
+  width: 100%;
+  display: block;
+  border-radius: 15px;
 }
 
 .title {
-    font-size: 20px;
+  font-size: 20px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400, 700;
 }
 
 .description {
-    font-size: 14px;
-    color: rgb(100, 100, 100);
+  font-size: 14px;
+  color: hsl(216, 15%, 48%);
+  width: 220px;
+  margin: 0 auto;
 }
 
 .footer {
-    text-align: center;
-    font-size: 12px;
+  text-align: center;
+  font-size: 12px;
+}
+
+@media (max-width: 375px) {
+  .main {
+    width: 100%;
+  }
 }
