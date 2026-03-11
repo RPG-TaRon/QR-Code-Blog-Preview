@@ -2,12 +2,18 @@
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 </style> */
+@font-face {
+  font-family: "Outfit";
+  src: url("./fonts/Outfit-VariableFont_wght.ttf");
+}
+
 .main {
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: hsl(212, 45%, 89%);
+  font-family: Outfit, sans-serif;
 }
 
 .qr-code-container {
