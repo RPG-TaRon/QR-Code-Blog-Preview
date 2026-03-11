@@ -1,0 +1,39 @@
+/* <style>
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+</style> */
+.main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(167, 188, 216);
+}
+
+.qr-code-container {
+    background-color: white;
+    text-align: center;
+    padding: 16px;
+    border-radius: 15px;
+    width: 250px;
+}
+
+.qr-code {
+    width: 100%;
+    display: block;
+    border-radius: 15px;
+}
+
+.title {
+    font-size: 20px;
+}
+
+.description {
+    font-size: 14px;
+    color: rgb(100, 100, 100);
+}
+
+.footer {
+    text-align: center;
+    font-size: 12px;
+}
